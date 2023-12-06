@@ -7,6 +7,7 @@ const Login = () => {
     <div>
         <p>Login</p>
         <button onClick={()=>setLoggedIn(!isLoggedIn)} >{isLoggedIn? "Log Out": "Log In"}</button>
+
     </div>
   )
 }

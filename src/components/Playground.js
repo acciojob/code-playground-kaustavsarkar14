@@ -4,7 +4,6 @@ import Login from './Login'
 
 const Playground = () => {
     const {isLoggedIn} = useContext(authContext)
-
   return (
     <div>
         {
